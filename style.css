@@ -91,8 +91,13 @@ footer {
     text-align: center;
     padding: 10px;
 }
-.profile img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.image {
+  width: 200px;
+  height: 200px;
+  background-image: url('lav.jpeg');
+  background-size: cover;       /* Scales image to fit container */
+  background-position: center;  /* Centers image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  border-radius: 50%;           /* Makes it circular if desired */
 }
+
