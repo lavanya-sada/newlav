@@ -107,7 +107,7 @@ footer {
     width: 200px;
     height:200px;
     object-position:center;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 /* Content */
