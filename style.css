@@ -90,9 +90,10 @@ li {
 
 /* Contact */
 input, textarea {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     margin: 10px;
+    border:2px solid #ff416c;
 }
 
 /* Footer */
@@ -130,3 +131,6 @@ footer {
 .home-content span {
     color: yellow;
 }
+#contact h2{
+    color:#ff416c;
+    text-align:center;
