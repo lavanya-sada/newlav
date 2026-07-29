@@ -42,8 +42,9 @@ nav a:hover {
 
 /* Home */
 #home {
-    background: linear-gradient(to right, #00adb5, #393e46);
+    background:linear-gradient(to right, #7b2ff7,, #00c6ff);
     color: white;
+    border-radius:0 0 30px 30px;
 }
 
 #home span {
@@ -51,9 +52,11 @@ nav a:hover {
 }
 
 button {
+    background:linear-gradiant(to right,#ff4b2b,#ff416c);
     padding: 10px 20px;
     margin-top: 15px;
-    border: none;
+    border-radius:20px;
+    border-radius:20px;
     background: #00adb5;
     color: white;
     cursor: pointer;
@@ -79,8 +82,10 @@ li {
 .project {
     background:white;
     margin: 15px;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    border-left:5px solid #6a11cb;
 }
 
 /* Contact */
