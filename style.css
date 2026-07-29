@@ -147,30 +147,46 @@ footer {
     gap: 20px;
     flex-wrap: wrap;
 }
+    /* Projects Section */
+#projects {
+    background: #eef2f7;
+    padding: 60px 20px;
+    text-align: center;
+}
 
-/* Card Design */
+/* Grid Layout */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Card */
 .project-card {
-    background: white;
-    padding: 20px;
-    width: 250px;
+    background: #ffffff;
+    padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
 }
 
 /* Hover Effect */
 .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 /* Title */
 .project-card h3 {
-    margin-bottom: 10px;
     color: #1e3a8a;
+    margin-bottom: 10px;
 }
 
 /* Text */
 .project-card p {
     color: #555;
+    font-size: 14px;
 }
+
