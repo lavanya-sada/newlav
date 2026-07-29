@@ -97,7 +97,6 @@ footer {
   background-image: url('lav.jpeg');
   background-size: cover;       /* Scales image to fit container */
   background-position: center;  /* Centers image */
-  background-repeat: no-repeat; /* Prevents tiling */
   border-radius: 50%;           /* Makes it circular if desired */
 }
 
