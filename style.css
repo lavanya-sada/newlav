@@ -91,12 +91,7 @@ footer {
     text-align: center;
     padding: 10px;
 }
-.image {
-  width: 200px;
-  height: 200px;
-  background-image: url('lav.jpeg');
-  background-size: cover;       /* Scales image to fit container */
-  background-position: center;  /* Centers image */
-  border-radius: 50%;           /* Makes it circular if desired */
+.hero-img img{
+    width:200px;
+    border-radius:100px 100px;
 }
-
