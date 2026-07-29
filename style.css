@@ -42,7 +42,7 @@ nav a:hover {
 
 /* Home */
 #home {
-    background:linear-gradient(to right, #7b2ff7,, #00c6ff);
+    background:#00adb5;
     color: white;
     border-radius:0 0 30px 30px;
 }
