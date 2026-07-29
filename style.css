@@ -105,6 +105,8 @@ footer {
 /* Image styling */
 .home-image img {
     width: 200px;
+    height:250px;
+    object-position:center;
     border-radius: 50px;
 }
 
